@@ -1,0 +1,13 @@
+Package: test-package-dbgsym
+Package-Type: ddeb
+Source: test-package
+Version: 1.0.0
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Noah Gaeta <ngaeta02@gmail.com>
+Installed-Size: 17
+Depends: test-package (= 1.0.0)
+Section: debug
+Priority: optional
+Description: debug symbols for test-package
+Build-Ids: 6f3402636f5976c6496374c81685f263fd3d7513

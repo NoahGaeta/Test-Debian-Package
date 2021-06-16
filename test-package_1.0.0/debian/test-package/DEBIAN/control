@@ -1,0 +1,8 @@
+Package: test-package
+Version: 1.0.0
+Architecture: arm64
+Maintainer: Noah Gaeta <ngaeta02@gmail.com>
+Installed-Size: 14
+Section: misc
+Priority: extra
+Description: This is a dummy package

@@ -1,0 +1,32 @@
+Format: 1.8
+Source: test-package
+Binary: test-package
+Architecture: source arm64
+Version: 1.0.0
+Distribution: unstable
+Urgency: low
+Maintainer: Noah Gaeta <ngaeta02@gmail.com>
+Description:
+ test-package - This is a dummy package
+Changes:
+ test-package (1.0.0) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1:
+ f9d56d6a22a6e800be0a93ce358236e1d76f6193 520 test-package_1.0.0.dsc
+ 8bc07fe7a0a2778581e2108c39db5adf0c7f50a6 3927 test-package_1.0.0.tar.gz
+ 14998c598dc199166fdc926f3cc4a28859aa654e 2644 test-package-dbgsym_1.0.0_arm64.ddeb
+ e81e1d04b206343e66238f5d9385b2546c6854e5 5635 test-package_1.0.0_arm64.buildinfo
+ 44ae0352f385c641ecefe1f4f7e5ee4f71a63def 2928 test-package_1.0.0_arm64.deb
+Checksums-Sha256:
+ e9c57b88cdc6345a41382237e52abe69bf0b4def19c65975f290ed9a2d8216a8 520 test-package_1.0.0.dsc
+ 31925ce4847a9400fdb3aa75f2fd9c0b0bb2f26bacef2c88d5f7c63e75b92c0d 3927 test-package_1.0.0.tar.gz
+ 909525b4a337c809a28b90c8864b4ebb305d443caaeda3d1166fdeb83493b455 2644 test-package-dbgsym_1.0.0_arm64.ddeb
+ 76062f5d906e7ec79b6c59ce43a9e8261388c0d1603980604dd2563742656773 5635 test-package_1.0.0_arm64.buildinfo
+ 3a6edd2f2f4f2a99d25aafdddd4397c87a7de2222254bd42e4c8ec01cc2210d8 2928 test-package_1.0.0_arm64.deb
+Files:
+ e6a11bfdb51082dcc97cc4809ab0bcf8 520 misc extra test-package_1.0.0.dsc
+ 7d38b41f44931cb83b31793d2f347498 3927 misc extra test-package_1.0.0.tar.gz
+ ab44ba5df59e5a443c75d5b26a5b45a1 2644 debug optional test-package-dbgsym_1.0.0_arm64.ddeb
+ 284c0ebb07a249ad696ab8bdf6e73f7b 5635 misc extra test-package_1.0.0_arm64.buildinfo
+ 47dd1a62c5713040701a639423f3f2e7 2928 misc extra test-package_1.0.0_arm64.deb

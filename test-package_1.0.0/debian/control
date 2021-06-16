@@ -1,0 +1,13 @@
+
+Source: test-package
+Section: misc
+Priority: extra
+Maintainer: Noah Gaeta <ngaeta02@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+ 
+Package: test-package
+Architecture: any
+Depends: ${misc:Depends}
+Description: This is a dummy package
+
